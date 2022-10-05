@@ -1,0 +1,351 @@
+(source_file "main.swift"
+  (top_level_code_decl range=[main.swift:3:1 - line:3:50]
+    (brace_stmt implicit range=[main.swift:3:1 - line:3:50]
+      (pattern_binding_decl range=[main.swift:3:1 - line:3:50]
+        (pattern_named type='[Int]' 'unsortedIntegers')
+        Original init:
+        (array_expr type='[Int]' location=main.swift:3:24 range=[main.swift:3:24 - line:3:50] initializer=Swift.(file).Array extension.init(arrayLiteral:) [with (substitution_map generic_signature=<Element> (substitution Element -> Int))]
+          (integer_literal_expr type='Int' location=main.swift:3:25 range=[main.swift:3:25 - line:3:26] negative value=357 builtin_initializer=Swift.(file).Int.init(_builtinIntegerLiteral:) initializer=**NULL**)
+          (integer_literal_expr type='Int' location=main.swift:3:31 range=[main.swift:3:31 - line:3:32] negative value=37 builtin_initializer=Swift.(file).Int.init(_builtinIntegerLiteral:) initializer=**NULL**)
+          (integer_literal_expr type='Int' location=main.swift:3:36 range=[main.swift:3:36 - line:3:36] value=561 builtin_initializer=Swift.(file).Int.init(_builtinIntegerLiteral:) initializer=**NULL**)
+          (integer_literal_expr type='Int' location=main.swift:3:41 range=[main.swift:3:41 - line:3:41] value=520 builtin_initializer=Swift.(file).Int.init(_builtinIntegerLiteral:) initializer=**NULL**)
+          (integer_literal_expr type='Int' location=main.swift:3:46 range=[main.swift:3:46 - line:3:47] negative value=960 builtin_initializer=Swift.(file).Int.init(_builtinIntegerLiteral:) initializer=**NULL**))
+        Processed init:
+        (array_expr type='[Int]' location=main.swift:3:24 range=[main.swift:3:24 - line:3:50] initializer=Swift.(file).Array extension.init(arrayLiteral:) [with (substitution_map generic_signature=<Element> (substitution Element -> Int))]
+          (integer_literal_expr type='Int' location=main.swift:3:25 range=[main.swift:3:25 - line:3:26] negative value=357 builtin_initializer=Swift.(file).Int.init(_builtinIntegerLiteral:) initializer=**NULL**)
+          (integer_literal_expr type='Int' location=main.swift:3:31 range=[main.swift:3:31 - line:3:32] negative value=37 builtin_initializer=Swift.(file).Int.init(_builtinIntegerLiteral:) initializer=**NULL**)
+          (integer_literal_expr type='Int' location=main.swift:3:36 range=[main.swift:3:36 - line:3:36] value=561 builtin_initializer=Swift.(file).Int.init(_builtinIntegerLiteral:) initializer=**NULL**)
+          (integer_literal_expr type='Int' location=main.swift:3:41 range=[main.swift:3:41 - line:3:41] value=520 builtin_initializer=Swift.(file).Int.init(_builtinIntegerLiteral:) initializer=**NULL**)
+          (integer_literal_expr type='Int' location=main.swift:3:46 range=[main.swift:3:46 - line:3:47] negative value=960 builtin_initializer=Swift.(file).Int.init(_builtinIntegerLiteral:) initializer=**NULL**)))
+))
+  (var_decl range=[main.swift:3:5 - line:3:5] "unsortedIntegers" type='[Int]' interface type='[Int]' access=internal let readImpl=stored immutable)
+  (top_level_code_decl range=[main.swift:9:1 - line:9:9]
+    (brace_stmt implicit range=[main.swift:9:1 - line:9:9]
+      (pattern_binding_decl range=[main.swift:9:1 - line:9:9]
+        (pattern_named type='[Int]' 'a')
+        Original init:
+        (unresolved_decl_ref_expr type='<null>' name=unsortedIntegers function_ref=unapplied)
+        Processed init:
+        (declref_expr type='[Int]' location=main.swift:9:9 range=[main.swift:9:9 - line:9:9] decl=main.(file).unsortedIntegers@main.swift:3:5 function_ref=unapplied))
+))
+  (var_decl range=[main.swift:9:5 - line:9:5] "a" type='[Int]' interface type='[Int]' access=internal readImpl=stored writeImpl=stored readWriteImpl=stored)
+  (top_level_code_decl range=[main.swift:10:1 - line:10:13]
+    (brace_stmt implicit range=[main.swift:10:1 - line:10:13]
+      (pattern_binding_decl range=[main.swift:10:1 - line:10:13]
+        (pattern_named type='Int' 'swaps')
+        Original init:
+        (integer_literal_expr type='Int' location=main.swift:10:13 range=[main.swift:10:13 - line:10:13] value=0 builtin_initializer=Swift.(file).Int.init(_builtinIntegerLiteral:) initializer=**NULL**)
+        Processed init:
+        (integer_literal_expr type='Int' location=main.swift:10:13 range=[main.swift:10:13 - line:10:13] value=0 builtin_initializer=Swift.(file).Int.init(_builtinIntegerLiteral:) initializer=**NULL**))
+))
+  (var_decl range=[main.swift:10:5 - line:10:5] "swaps" type='Int' interface type='Int' access=internal readImpl=stored writeImpl=stored readWriteImpl=stored)
+  (top_level_code_decl range=[main.swift:11:1 - line:11:12]
+    (brace_stmt implicit range=[main.swift:11:1 - line:11:12]
+      (pattern_binding_decl range=[main.swift:11:1 - line:11:12]
+        (pattern_named type='Int' 'Pass')
+        Original init:
+        (integer_literal_expr type='Int' location=main.swift:11:12 range=[main.swift:11:12 - line:11:12] value=0 builtin_initializer=Swift.(file).Int.init(_builtinIntegerLiteral:) initializer=**NULL**)
+        Processed init:
+        (integer_literal_expr type='Int' location=main.swift:11:12 range=[main.swift:11:12 - line:11:12] value=0 builtin_initializer=Swift.(file).Int.init(_builtinIntegerLiteral:) initializer=**NULL**))
+))
+  (var_decl range=[main.swift:11:5 - line:11:5] "Pass" type='Int' interface type='Int' access=internal readImpl=stored writeImpl=stored readWriteImpl=stored)
+  (top_level_code_decl range=[main.swift:12:1 - line:12:18]
+    (brace_stmt implicit range=[main.swift:12:1 - line:12:18]
+      (pattern_binding_decl range=[main.swift:12:1 - line:12:18]
+        (pattern_named type='Int' 'totalswaps')
+        Original init:
+        (integer_literal_expr type='Int' location=main.swift:12:18 range=[main.swift:12:18 - line:12:18] value=0 builtin_initializer=Swift.(file).Int.init(_builtinIntegerLiteral:) initializer=**NULL**)
+        Processed init:
+        (integer_literal_expr type='Int' location=main.swift:12:18 range=[main.swift:12:18 - line:12:18] value=0 builtin_initializer=Swift.(file).Int.init(_builtinIntegerLiteral:) initializer=**NULL**))
+))
+  (var_decl range=[main.swift:12:5 - line:12:5] "totalswaps" type='Int' interface type='Int' access=internal readImpl=stored writeImpl=stored readWriteImpl=stored)
+  (top_level_code_decl range=[main.swift:13:1 - line:13:62]
+    (brace_stmt implicit range=[main.swift:13:1 - line:13:62]
+      (call_expr type='()' location=main.swift:13:1 range=[main.swift:13:1 - line:13:62] nothrow arg_labels=_:
+        (declref_expr type='(Any..., String, String) -> ()' location=main.swift:13:1 range=[main.swift:13:1 - line:13:1] decl=Swift.(file).print(_:separator:terminator:) function_ref=single)
+        (tuple_expr type='(Any..., separator: String, terminator: String)' location=main.swift:13:6 range=[main.swift:13:6 - line:13:62] names='',separator,terminator
+          (vararg_expansion_expr implicit type='[Any]' location=main.swift:13:7 range=[main.swift:13:7 - line:13:7]
+            (array_expr implicit type='[Any]' location=main.swift:13:7 range=[main.swift:13:7 - line:13:7] initializer=**NULL**
+              (erasure_expr implicit type='Any' location=main.swift:13:7 range=[main.swift:13:7 - line:13:7]
+                (interpolated_string_literal_expr type='String' location=main.swift:13:7 range=[main.swift:13:7 - line:13:7] trailing_quote_loc=main.swift:13:61 literal_capacity=27 interpolation_count=2 builder_init=Swift.(file).DefaultStringInterpolation.init(literalCapacity:interpolationCount:) result_init=Swift.(file).String extension.init(stringInterpolation:)
+                  (tap_expr implicit type='DefaultStringInterpolation' location=main.swift:13:7 range=[main.swift:13:7 - line:13:7] var=main.(file).top-level code.$interpolation
+                    (opaque_value_expr implicit type='DefaultStringInterpolation' location=main.swift:13:7 range=[main.swift:13:7 - line:13:7] @ 0xa0ffce8)
+                    (brace_stmt implicit range=[main.swift:13:7 - line:13:7]
+                      (var_decl implicit "$interpolation" type='DefaultStringInterpolation' interface type='DefaultStringInterpolation' access=fileprivate readImpl=stored writeImpl=stored readWriteImpl=stored)
+
+                      (call_expr implicit type='()' location=main.swift:13:8 range=[main.swift:13:8 - line:13:7] nothrow arg_labels=_:
+                        (dot_syntax_call_expr implicit type='(String) -> ()' location=main.swift:13:8 range=[main.swift:13:8 - line:13:8] nothrow
+                          (declref_expr implicit type='(inout DefaultStringInterpolation) -> (String) -> ()' decl=Swift.(file).DefaultStringInterpolation.appendLiteral function_ref=double)
+                          (inout_expr implicit type='inout DefaultStringInterpolation' location=main.swift:13:8 range=[main.swift:13:8 - line:13:8]
+                            (declref_expr implicit type='@lvalue DefaultStringInterpolation' location=main.swift:13:8 range=[main.swift:13:8 - line:13:8] decl=main.(file).top-level code.$interpolation function_ref=unapplied)))
+                        (paren_expr implicit type='(String)' location=main.swift:13:7 range=[main.swift:13:7 - line:13:7]
+                          (string_literal_expr type='String' location=main.swift:13:7 range=[main.swift:13:7 - line:13:7] encoding=utf8 value="Pass: " builtin_initializer=Swift.(file).String extension.init(_builtinStringLiteral:utf8CodeUnitCount:isASCII:) initializer=**NULL**)))
+                      (call_expr type='()' location=main.swift:13:15 range=[main.swift:13:15 - line:13:20] nothrow arg_labels=_:
+                        (dot_syntax_call_expr implicit type='(Int) -> ()' location=main.swift:13:15 range=[main.swift:13:15 - line:13:15] nothrow
+                          (declref_expr implicit type='(inout DefaultStringInterpolation) -> (Int) -> ()' location=main.swift:13:15 range=[main.swift:13:15 - line:13:15] decl=Swift.(file).DefaultStringInterpolation.appendInterpolation [with (substitution_map generic_signature=<T where T : CustomStringConvertible> (substitution T -> Int))] function_ref=double)
+                          (inout_expr implicit type='inout DefaultStringInterpolation' location=main.swift:13:15 range=[main.swift:13:15 - line:13:15]
+                            (declref_expr implicit type='@lvalue DefaultStringInterpolation' location=main.swift:13:15 range=[main.swift:13:15 - line:13:15] decl=main.(file).top-level code.$interpolation function_ref=unapplied)))
+                        (paren_expr type='(Int)' location=main.swift:13:16 range=[main.swift:13:15 - line:13:20]
+                          (load_expr implicit type='Int' location=main.swift:13:16 range=[main.swift:13:16 - line:13:16]
+                            (declref_expr type='@lvalue Int' location=main.swift:13:16 range=[main.swift:13:16 - line:13:16] decl=main.(file).Pass@main.swift:11:5 function_ref=unapplied))))
+                      (call_expr implicit type='()' location=main.swift:13:21 range=[main.swift:13:21 - line:13:21] nothrow arg_labels=_:
+                        (dot_syntax_call_expr implicit type='(String) -> ()' location=main.swift:13:21 range=[main.swift:13:21 - line:13:21] nothrow
+                          (declref_expr implicit type='(inout DefaultStringInterpolation) -> (String) -> ()' decl=Swift.(file).DefaultStringInterpolation.appendLiteral function_ref=double)
+                          (inout_expr implicit type='inout DefaultStringInterpolation' location=main.swift:13:21 range=[main.swift:13:21 - line:13:21]
+                            (declref_expr implicit type='@lvalue DefaultStringInterpolation' location=main.swift:13:21 range=[main.swift:13:21 - line:13:21] decl=main.(file).top-level code.$interpolation function_ref=unapplied)))
+                        (paren_expr implicit type='(String)' location=main.swift:13:21 range=[main.swift:13:21 - line:13:21]
+                          (string_literal_expr type='String' location=main.swift:13:21 range=[main.swift:13:21 - line:13:21] encoding=utf8 value=", Swaps: 0/0, Array: " builtin_initializer=Swift.(file).String extension.init(_builtinStringLiteral:utf8CodeUnitCount:isASCII:) initializer=**NULL**)))
+                      (call_expr type='()' location=main.swift:13:43 range=[main.swift:13:43 - line:13:60] nothrow arg_labels=_:
+                        (dot_syntax_call_expr implicit type='([Int]) -> ()' location=main.swift:13:43 range=[main.swift:13:43 - line:13:43] nothrow
+                          (declref_expr implicit type='(inout DefaultStringInterpolation) -> ([Int]) -> ()' location=main.swift:13:43 range=[main.swift:13:43 - line:13:43] decl=Swift.(file).DefaultStringInterpolation.appendInterpolation [with (substitution_map generic_signature=<T where T : CustomStringConvertible> (substitution T -> [Int]))] function_ref=double)
+                          (inout_expr implicit type='inout DefaultStringInterpolation' location=main.swift:13:43 range=[main.swift:13:43 - line:13:43]
+                            (declref_expr implicit type='@lvalue DefaultStringInterpolation' location=main.swift:13:43 range=[main.swift:13:43 - line:13:43] decl=main.(file).top-level code.$interpolation function_ref=unapplied)))
+                        (paren_expr type='([Int])' location=main.swift:13:44 range=[main.swift:13:43 - line:13:60]
+                          (declref_expr type='[Int]' location=main.swift:13:44 range=[main.swift:13:44 - line:13:44] decl=main.(file).unsortedIntegers@main.swift:3:5 function_ref=unapplied)))
+                      (call_expr implicit type='()' location=main.swift:13:61 range=[main.swift:13:61 - line:13:61] nothrow arg_labels=_:
+                        (dot_syntax_call_expr implicit type='(String) -> ()' location=main.swift:13:61 range=[main.swift:13:61 - line:13:61] nothrow
+                          (declref_expr implicit type='(inout DefaultStringInterpolation) -> (String) -> ()' decl=Swift.(file).DefaultStringInterpolation.appendLiteral function_ref=double)
+                          (inout_expr implicit type='inout DefaultStringInterpolation' location=main.swift:13:61 range=[main.swift:13:61 - line:13:61]
+                            (declref_expr implicit type='@lvalue DefaultStringInterpolation' location=main.swift:13:61 range=[main.swift:13:61 - line:13:61] decl=main.(file).top-level code.$interpolation function_ref=unapplied)))
+                        (paren_expr implicit type='(String)' location=main.swift:13:61 range=[main.swift:13:61 - line:13:61]
+                          (string_literal_expr type='String' location=main.swift:13:61 range=[main.swift:13:61 - line:13:61] encoding=utf8 value="" builtin_initializer=Swift.(file).String extension.init(_builtinStringLiteral:utf8CodeUnitCount:isASCII:) initializer=**NULL**)))))))))
+          (default_argument_expr implicit type='String' location=main.swift:13:6 range=[main.swift:13:6 - line:13:6] default_args_owner=Swift.(file).print(_:separator:terminator:) param=1)
+          (default_argument_expr implicit type='String' location=main.swift:13:6 range=[main.swift:13:6 - line:13:6] default_args_owner=Swift.(file).print(_:separator:terminator:) param=2)))))
+  (func_decl range=[main.swift:14:1 - line:19:1] "swap(integers:firstIndex:secondIndex:)" interface type='(inout [Int], Int, Int) -> ()' access=internal captures=(totalswaps<direct>)
+    (parameter_list range=[main.swift:14:10 - line:14:67]
+      (parameter "integers" apiName=integers type='[Int]' interface type='[Int]' inout)
+      (parameter "firstIndex" apiName=firstIndex type='Int' interface type='Int')
+      (parameter "secondIndex" apiName=secondIndex type='Int' interface type='Int'))
+    (brace_stmt range=[main.swift:14:69 - line:19:1]
+      (pattern_binding_decl range=[main.swift:15:5 - line:15:35]
+        (pattern_named type='Int' 'temp')
+        Original init:
+        (subscript_expr type='<null>' arg_labels=_:
+          (declref_expr type='@lvalue [Int]' location=main.swift:15:16 range=[main.swift:15:16 - line:15:16] decl=main.(file).swap(integers:firstIndex:secondIndex:).integers@main.swift:14:11 function_ref=unapplied)
+          (paren_expr type='(Int)' location=main.swift:15:25 range=[main.swift:15:24 - line:15:35]
+            (declref_expr type='Int' location=main.swift:15:25 range=[main.swift:15:25 - line:15:25] decl=main.(file).swap(integers:firstIndex:secondIndex:).firstIndex@main.swift:14:34 function_ref=unapplied)))
+        Processed init:
+        (load_expr implicit type='Int' location=main.swift:15:24 range=[main.swift:15:16 - line:15:35]
+          (subscript_expr type='@lvalue Int' location=main.swift:15:24 range=[main.swift:15:16 - line:15:35] decl=Swift.(file).Array extension.subscript(_:) [with (substitution_map generic_signature=<Element> (substitution Element -> Int))] arg_labels=_:
+            (inout_expr implicit type='inout Array<Int>' location=main.swift:15:16 range=[main.swift:15:16 - line:15:16]
+              (declref_expr type='@lvalue [Int]' location=main.swift:15:16 range=[main.swift:15:16 - line:15:16] decl=main.(file).swap(integers:firstIndex:secondIndex:).integers@main.swift:14:11 function_ref=unapplied))
+            (paren_expr type='(Int)' location=main.swift:15:25 range=[main.swift:15:24 - line:15:35]
+              (declref_expr type='Int' location=main.swift:15:25 range=[main.swift:15:25 - line:15:25] decl=main.(file).swap(integers:firstIndex:secondIndex:).firstIndex@main.swift:14:34 function_ref=unapplied)))))
+
+      (var_decl range=[main.swift:15:9 - line:15:9] "temp" type='Int' interface type='Int' access=private let readImpl=stored immutable)
+
+      (assign_expr type='()' location=main.swift:16:26 range=[main.swift:16:5 - line:16:48]
+        (subscript_expr type='@lvalue Int' location=main.swift:16:13 range=[main.swift:16:5 - line:16:24] decl=Swift.(file).Array extension.subscript(_:) [with (substitution_map generic_signature=<Element> (substitution Element -> Int))] arg_labels=_:
+          (inout_expr implicit type='inout Array<Int>' location=main.swift:16:5 range=[main.swift:16:5 - line:16:5]
+            (declref_expr type='@lvalue [Int]' location=main.swift:16:5 range=[main.swift:16:5 - line:16:5] decl=main.(file).swap(integers:firstIndex:secondIndex:).integers@main.swift:14:11 function_ref=unapplied))
+          (paren_expr type='(Int)' location=main.swift:16:14 range=[main.swift:16:13 - line:16:24]
+            (declref_expr type='Int' location=main.swift:16:14 range=[main.swift:16:14 - line:16:14] decl=main.(file).swap(integers:firstIndex:secondIndex:).firstIndex@main.swift:14:34 function_ref=unapplied)))
+        (load_expr implicit type='Int' location=main.swift:16:36 range=[main.swift:16:28 - line:16:48]
+          (subscript_expr type='@lvalue Int' location=main.swift:16:36 range=[main.swift:16:28 - line:16:48] decl=Swift.(file).Array extension.subscript(_:) [with (substitution_map generic_signature=<Element> (substitution Element -> Int))] arg_labels=_:
+            (inout_expr implicit type='inout Array<Int>' location=main.swift:16:28 range=[main.swift:16:28 - line:16:28]
+              (declref_expr type='@lvalue [Int]' location=main.swift:16:28 range=[main.swift:16:28 - line:16:28] decl=main.(file).swap(integers:firstIndex:secondIndex:).integers@main.swift:14:11 function_ref=unapplied))
+            (paren_expr type='(Int)' location=main.swift:16:37 range=[main.swift:16:36 - line:16:48]
+              (declref_expr type='Int' location=main.swift:16:37 range=[main.swift:16:37 - line:16:37] decl=main.(file).swap(integers:firstIndex:secondIndex:).secondIndex@main.swift:14:51 function_ref=unapplied)))))
+      (assign_expr type='()' location=main.swift:17:27 range=[main.swift:17:5 - line:17:29]
+        (subscript_expr type='@lvalue Int' location=main.swift:17:13 range=[main.swift:17:5 - line:17:25] decl=Swift.(file).Array extension.subscript(_:) [with (substitution_map generic_signature=<Element> (substitution Element -> Int))] arg_labels=_:
+          (inout_expr implicit type='inout Array<Int>' location=main.swift:17:5 range=[main.swift:17:5 - line:17:5]
+            (declref_expr type='@lvalue [Int]' location=main.swift:17:5 range=[main.swift:17:5 - line:17:5] decl=main.(file).swap(integers:firstIndex:secondIndex:).integers@main.swift:14:11 function_ref=unapplied))
+          (paren_expr type='(Int)' location=main.swift:17:14 range=[main.swift:17:13 - line:17:25]
+            (declref_expr type='Int' location=main.swift:17:14 range=[main.swift:17:14 - line:17:14] decl=main.(file).swap(integers:firstIndex:secondIndex:).secondIndex@main.swift:14:51 function_ref=unapplied)))
+        (declref_expr type='Int' location=main.swift:17:29 range=[main.swift:17:29 - line:17:29] decl=main.(file).swap(integers:firstIndex:secondIndex:).temp@main.swift:15:9 function_ref=unapplied))
+      (binary_expr type='()' location=main.swift:18:16 range=[main.swift:18:5 - line:18:19] nothrow
+        (dot_syntax_call_expr implicit type='(inout Int, Int) -> ()' location=main.swift:18:16 range=[main.swift:18:16 - line:18:16] nothrow
+          (declref_expr type='(Int.Type) -> (inout Int, Int) -> ()' location=main.swift:18:16 range=[main.swift:18:16 - line:18:16] decl=Swift.(file).Int.+= function_ref=single)
+          (type_expr implicit type='Int.Type' location=main.swift:18:16 range=[main.swift:18:16 - line:18:16] typerepr='Int'))
+        (tuple_expr implicit type='(inout Int, Int)' location=main.swift:18:5 range=[main.swift:18:5 - line:18:19]
+          (inout_expr implicit type='inout Int' location=main.swift:18:5 range=[main.swift:18:5 - line:18:5]
+            (declref_expr type='@lvalue Int' location=main.swift:18:5 range=[main.swift:18:5 - line:18:5] decl=main.(file).totalswaps@main.swift:12:5 function_ref=unapplied))
+          (integer_literal_expr type='Int' location=main.swift:18:19 range=[main.swift:18:19 - line:18:19] value=1 builtin_initializer=Swift.(file).Int.init(_builtinIntegerLiteral:) initializer=**NULL**)))))
+  (top_level_code_decl range=[main.swift:20:1 - line:20:15]
+    (brace_stmt implicit range=[main.swift:20:1 - line:20:15]
+      (pattern_binding_decl range=[main.swift:20:1 - line:20:15]
+        (pattern_named type='Bool' 'goAgain')
+        Original init:
+        (boolean_literal_expr type='Bool' location=main.swift:20:15 range=[main.swift:20:15 - line:20:15] value=true builtin_initializer=Swift.(file).Bool extension.init(_builtinBooleanLiteral:) initializer=**NULL**)
+        Processed init:
+        (boolean_literal_expr type='Bool' location=main.swift:20:15 range=[main.swift:20:15 - line:20:15] value=true builtin_initializer=Swift.(file).Bool extension.init(_builtinBooleanLiteral:) initializer=**NULL**))
+))
+  (var_decl range=[main.swift:20:5 - line:20:5] "goAgain" type='Bool' interface type='Bool' access=internal readImpl=stored writeImpl=stored readWriteImpl=stored)
+  (top_level_code_decl range=[main.swift:21:1 - line:33:1]
+    (brace_stmt implicit range=[main.swift:21:1 - line:33:1]
+      (while_stmt range=[main.swift:21:1 - line:33:1]
+        (binary_expr type='Bool' location=main.swift:21:15 range=[main.swift:21:7 - line:21:18] nothrow
+          (dot_syntax_call_expr implicit type='(Bool, Bool) -> Bool' location=main.swift:21:15 range=[main.swift:21:15 - line:21:15] nothrow
+            (declref_expr type='(Bool.Type) -> (Bool, Bool) -> Bool' location=main.swift:21:15 range=[main.swift:21:15 - line:21:15] decl=Swift.(file).Bool extension.== function_ref=single)
+            (type_expr implicit type='Bool.Type' location=main.swift:21:15 range=[main.swift:21:15 - line:21:15] typerepr='Bool'))
+          (tuple_expr implicit type='(Bool, Bool)' location=main.swift:21:7 range=[main.swift:21:7 - line:21:18]
+            (load_expr implicit type='Bool' location=main.swift:21:7 range=[main.swift:21:7 - line:21:7]
+              (declref_expr type='@lvalue Bool' location=main.swift:21:7 range=[main.swift:21:7 - line:21:7] decl=main.(file).goAgain@main.swift:20:5 function_ref=unapplied))
+            (boolean_literal_expr type='Bool' location=main.swift:21:18 range=[main.swift:21:18 - line:21:18] value=true builtin_initializer=Swift.(file).Bool extension.init(_builtinBooleanLiteral:) initializer=**NULL**)))
+        (brace_stmt range=[main.swift:21:23 - line:33:1]
+          (assign_expr type='()' location=main.swift:22:13 range=[main.swift:22:5 - line:22:15]
+            (declref_expr type='@lvalue Bool' location=main.swift:22:5 range=[main.swift:22:5 - line:22:5] decl=main.(file).goAgain@main.swift:20:5 function_ref=unapplied)
+            (boolean_literal_expr type='Bool' location=main.swift:22:15 range=[main.swift:22:15 - line:22:15] value=false builtin_initializer=Swift.(file).Bool extension.init(_builtinBooleanLiteral:) initializer=**NULL**))
+          (for_each_stmt range=[main.swift:23:5 - line:29:5]
+            (pattern_named type='Int' 'i')
+            (pattern_named type='Int' 'i')
+            (binary_expr type='Range<Int>' location=main.swift:23:16 range=[main.swift:23:14 - line:23:30] nothrow
+              (dot_syntax_call_expr implicit type='(Int, Int) -> Range<Int>' location=main.swift:23:16 range=[main.swift:23:16 - line:23:16] nothrow
+                (declref_expr type='(Int.Type) -> (Int, Int) -> Range<Int>' location=main.swift:23:16 range=[main.swift:23:16 - line:23:16] decl=Swift.(file).Comparable extension...< [with (substitution_map generic_signature=<Self where Self : Comparable> (substitution Self -> Int))] function_ref=double)
+                (type_expr implicit type='Int.Type' location=main.swift:23:16 range=[main.swift:23:16 - line:23:16] typerepr='Int'))
+              (tuple_expr implicit type='(Int, Int)' location=main.swift:23:14 range=[main.swift:23:14 - line:23:30]
+                (integer_literal_expr type='Int' location=main.swift:23:14 range=[main.swift:23:14 - line:23:14] value=0 builtin_initializer=Swift.(file).Int.init(_builtinIntegerLiteral:) initializer=**NULL**)
+                (binary_expr type='Int' location=main.swift:23:28 range=[main.swift:23:20 - line:23:30] nothrow
+                  (dot_syntax_call_expr implicit type='(Int, Int) -> Int' location=main.swift:23:28 range=[main.swift:23:28 - line:23:28] nothrow
+                    (declref_expr type='(Int.Type) -> (Int, Int) -> Int' location=main.swift:23:28 range=[main.swift:23:28 - line:23:28] decl=Swift.(file).Int extension.- function_ref=double)
+                    (type_expr implicit type='Int.Type' location=main.swift:23:28 range=[main.swift:23:28 - line:23:28] typerepr='Int'))
+                  (tuple_expr implicit type='(Int, Int)' location=main.swift:23:20 range=[main.swift:23:20 - line:23:30]
+                    (member_ref_expr type='Int' location=main.swift:23:22 range=[main.swift:23:20 - line:23:22] decl=Swift.(file).Array extension.count [with (substitution_map generic_signature=<Element> (substitution Element -> Int))]
+                      (load_expr implicit type='[Int]' location=main.swift:23:20 range=[main.swift:23:20 - line:23:20]
+                        (declref_expr type='@lvalue [Int]' location=main.swift:23:20 range=[main.swift:23:20 - line:23:20] decl=main.(file).a@main.swift:9:5 function_ref=unapplied)))
+                    (integer_literal_expr type='Int' location=main.swift:23:30 range=[main.swift:23:30 - line:23:30] value=1 builtin_initializer=Swift.(file).Int.init(_builtinIntegerLiteral:) initializer=**NULL**)))))
+            (var_decl implicit range=[main.swift:23:11 - line:23:11] "$i$generator" type='Range<Int>.Iterator' interface type='Range<Int>.Iterator' access=fileprivate readImpl=stored writeImpl=stored readWriteImpl=stored)
+
+            (declref_expr implicit type='@lvalue Range<Int>.Iterator' location=main.swift:23:11 range=[main.swift:23:11 - line:23:11] decl=main.(file).top-level code.$i$generator@main.swift:23:11 function_ref=unapplied)
+            (brace_stmt range=[main.swift:23:32 - line:29:5]
+              (if_stmt range=[main.swift:24:9 - line:28:9]
+                (binary_expr type='Bool' location=main.swift:24:17 range=[main.swift:24:12 - line:24:26] nothrow
+                  (dot_syntax_call_expr implicit type='(Int, Int) -> Bool' location=main.swift:24:17 range=[main.swift:24:17 - line:24:17] nothrow
+                    (declref_expr type='(Int.Type) -> (Int, Int) -> Bool' location=main.swift:24:17 range=[main.swift:24:17 - line:24:17] decl=Swift.(file).Int extension.> function_ref=single)
+                    (type_expr implicit type='Int.Type' location=main.swift:24:17 range=[main.swift:24:17 - line:24:17] typerepr='Int'))
+                  (tuple_expr implicit type='(Int, Int)' location=main.swift:24:12 range=[main.swift:24:12 - line:24:26]
+                    (load_expr implicit type='Int' location=main.swift:24:13 range=[main.swift:24:12 - line:24:15]
+                      (subscript_expr type='@lvalue Int' location=main.swift:24:13 range=[main.swift:24:12 - line:24:15] decl=Swift.(file).Array extension.subscript(_:) [with (substitution_map generic_signature=<Element> (substitution Element -> Int))] arg_labels=_:
+                        (inout_expr implicit type='inout Array<Int>' location=main.swift:24:12 range=[main.swift:24:12 - line:24:12]
+                          (declref_expr type='@lvalue [Int]' location=main.swift:24:12 range=[main.swift:24:12 - line:24:12] decl=main.(file).a@main.swift:9:5 function_ref=unapplied))
+                        (paren_expr type='(Int)' location=main.swift:24:14 range=[main.swift:24:13 - line:24:15]
+                          (declref_expr type='Int' location=main.swift:24:14 range=[main.swift:24:14 - line:24:14] decl=main.(file).top-level code.i@main.swift:23:9 function_ref=unapplied))))
+                    (load_expr implicit type='Int' location=main.swift:24:20 range=[main.swift:24:19 - line:24:26]
+                      (subscript_expr type='@lvalue Int' location=main.swift:24:20 range=[main.swift:24:19 - line:24:26] decl=Swift.(file).Array extension.subscript(_:) [with (substitution_map generic_signature=<Element> (substitution Element -> Int))] arg_labels=_:
+                        (inout_expr implicit type='inout Array<Int>' location=main.swift:24:19 range=[main.swift:24:19 - line:24:19]
+                          (declref_expr type='@lvalue [Int]' location=main.swift:24:19 range=[main.swift:24:19 - line:24:19] decl=main.(file).a@main.swift:9:5 function_ref=unapplied))
+                        (paren_expr type='(Int)' location=main.swift:24:23 range=[main.swift:24:20 - line:24:26]
+                          (binary_expr type='Int' location=main.swift:24:23 range=[main.swift:24:21 - line:24:25] nothrow
+                            (dot_syntax_call_expr implicit type='(Int, Int) -> Int' location=main.swift:24:23 range=[main.swift:24:23 - line:24:23] nothrow
+                              (declref_expr type='(Int.Type) -> (Int, Int) -> Int' location=main.swift:24:23 range=[main.swift:24:23 - line:24:23] decl=Swift.(file).Int extension.+ function_ref=double)
+                              (type_expr implicit type='Int.Type' location=main.swift:24:23 range=[main.swift:24:23 - line:24:23] typerepr='Int'))
+                            (tuple_expr implicit type='(Int, Int)' location=main.swift:24:21 range=[main.swift:24:21 - line:24:25]
+                              (declref_expr type='Int' location=main.swift:24:21 range=[main.swift:24:21 - line:24:21] decl=main.(file).top-level code.i@main.swift:23:9 function_ref=unapplied)
+                              (integer_literal_expr type='Int' location=main.swift:24:25 range=[main.swift:24:25 - line:24:25] value=1 builtin_initializer=Swift.(file).Int.init(_builtinIntegerLiteral:) initializer=**NULL**))))))))
+                (brace_stmt range=[main.swift:24:28 - line:28:9]
+                  (call_expr type='()' location=main.swift:25:13 range=[main.swift:25:13 - line:25:64] nothrow arg_labels=integers:firstIndex:secondIndex:
+                    (declref_expr type='(inout [Int], Int, Int) -> ()' location=main.swift:25:13 range=[main.swift:25:13 - line:25:13] decl=main.(file).swap(integers:firstIndex:secondIndex:)@main.swift:14:6 function_ref=single)
+                    (tuple_expr type='(integers: inout [Int], firstIndex: Int, secondIndex: Int)' location=main.swift:25:17 range=[main.swift:25:17 - line:25:64] names=integers,firstIndex,secondIndex
+                      (inout_expr type='inout [Int]' location=main.swift:25:28 range=[main.swift:25:28 - line:25:29]
+                        (declref_expr type='@lvalue [Int]' location=main.swift:25:29 range=[main.swift:25:29 - line:25:29] decl=main.(file).a@main.swift:9:5 function_ref=unapplied))
+                      (declref_expr type='Int' location=main.swift:25:44 range=[main.swift:25:44 - line:25:44] decl=main.(file).top-level code.i@main.swift:23:9 function_ref=unapplied)
+                      (binary_expr type='Int' location=main.swift:25:61 range=[main.swift:25:59 - line:25:63] nothrow
+                        (dot_syntax_call_expr implicit type='(Int, Int) -> Int' location=main.swift:25:61 range=[main.swift:25:61 - line:25:61] nothrow
+                          (declref_expr type='(Int.Type) -> (Int, Int) -> Int' location=main.swift:25:61 range=[main.swift:25:61 - line:25:61] decl=Swift.(file).Int extension.+ function_ref=single)
+                          (type_expr implicit type='Int.Type' location=main.swift:25:61 range=[main.swift:25:61 - line:25:61] typerepr='Int'))
+                        (tuple_expr implicit type='(Int, Int)' location=main.swift:25:59 range=[main.swift:25:59 - line:25:63]
+                          (declref_expr type='Int' location=main.swift:25:59 range=[main.swift:25:59 - line:25:59] decl=main.(file).top-level code.i@main.swift:23:9 function_ref=unapplied)
+                          (integer_literal_expr type='Int' location=main.swift:25:63 range=[main.swift:25:63 - line:25:63] value=1 builtin_initializer=Swift.(file).Int.init(_builtinIntegerLiteral:) initializer=**NULL**)))))
+                  (assign_expr type='()' location=main.swift:26:21 range=[main.swift:26:13 - line:26:23]
+                    (declref_expr type='@lvalue Bool' location=main.swift:26:13 range=[main.swift:26:13 - line:26:13] decl=main.(file).goAgain@main.swift:20:5 function_ref=unapplied)
+                    (boolean_literal_expr type='Bool' location=main.swift:26:23 range=[main.swift:26:23 - line:26:23] value=true builtin_initializer=Swift.(file).Bool extension.init(_builtinBooleanLiteral:) initializer=**NULL**))
+                  (binary_expr type='()' location=main.swift:27:19 range=[main.swift:27:13 - line:27:22] nothrow
+                    (dot_syntax_call_expr implicit type='(inout Int, Int) -> ()' location=main.swift:27:19 range=[main.swift:27:19 - line:27:19] nothrow
+                      (declref_expr type='(Int.Type) -> (inout Int, Int) -> ()' location=main.swift:27:19 range=[main.swift:27:19 - line:27:19] decl=Swift.(file).Int.+= function_ref=single)
+                      (type_expr implicit type='Int.Type' location=main.swift:27:19 range=[main.swift:27:19 - line:27:19] typerepr='Int'))
+                    (tuple_expr implicit type='(inout Int, Int)' location=main.swift:27:13 range=[main.swift:27:13 - line:27:22]
+                      (inout_expr implicit type='inout Int' location=main.swift:27:13 range=[main.swift:27:13 - line:27:13]
+                        (declref_expr type='@lvalue Int' location=main.swift:27:13 range=[main.swift:27:13 - line:27:13] decl=main.(file).swaps@main.swift:10:5 function_ref=unapplied))
+                      (integer_literal_expr type='Int' location=main.swift:27:22 range=[main.swift:27:22 - line:27:22] value=1 builtin_initializer=Swift.(file).Int.init(_builtinIntegerLiteral:) initializer=**NULL**)))))))
+          (binary_expr type='()' location=main.swift:30:10 range=[main.swift:30:5 - line:30:13] nothrow
+            (dot_syntax_call_expr implicit type='(inout Int, Int) -> ()' location=main.swift:30:10 range=[main.swift:30:10 - line:30:10] nothrow
+              (declref_expr type='(Int.Type) -> (inout Int, Int) -> ()' location=main.swift:30:10 range=[main.swift:30:10 - line:30:10] decl=Swift.(file).Int.+= function_ref=single)
+              (type_expr implicit type='Int.Type' location=main.swift:30:10 range=[main.swift:30:10 - line:30:10] typerepr='Int'))
+            (tuple_expr implicit type='(inout Int, Int)' location=main.swift:30:5 range=[main.swift:30:5 - line:30:13]
+              (inout_expr implicit type='inout Int' location=main.swift:30:5 range=[main.swift:30:5 - line:30:5]
+                (declref_expr type='@lvalue Int' location=main.swift:30:5 range=[main.swift:30:5 - line:30:5] decl=main.(file).Pass@main.swift:11:5 function_ref=unapplied))
+              (integer_literal_expr type='Int' location=main.swift:30:13 range=[main.swift:30:13 - line:30:13] value=1 builtin_initializer=Swift.(file).Int.init(_builtinIntegerLiteral:) initializer=**NULL**)))
+          (call_expr type='()' location=main.swift:31:5 range=[main.swift:31:5 - line:31:70] nothrow arg_labels=_:
+            (declref_expr type='(Any..., String, String) -> ()' location=main.swift:31:5 range=[main.swift:31:5 - line:31:5] decl=Swift.(file).print(_:separator:terminator:) function_ref=single)
+            (tuple_expr type='(Any..., separator: String, terminator: String)' location=main.swift:31:10 range=[main.swift:31:10 - line:31:70] names='',separator,terminator
+              (vararg_expansion_expr implicit type='[Any]' location=main.swift:31:11 range=[main.swift:31:11 - line:31:11]
+                (array_expr implicit type='[Any]' location=main.swift:31:11 range=[main.swift:31:11 - line:31:11] initializer=**NULL**
+                  (erasure_expr implicit type='Any' location=main.swift:31:11 range=[main.swift:31:11 - line:31:11]
+                    (interpolated_string_literal_expr type='String' location=main.swift:31:11 range=[main.swift:31:11 - line:31:11] trailing_quote_loc=main.swift:31:69 literal_capacity=25 interpolation_count=4 builder_init=Swift.(file).DefaultStringInterpolation.init(literalCapacity:interpolationCount:) result_init=Swift.(file).String extension.init(stringInterpolation:)
+                      (tap_expr implicit type='DefaultStringInterpolation' location=main.swift:31:11 range=[main.swift:31:11 - line:31:11] var=main.(file).top-level code.$interpolation
+                        (opaque_value_expr implicit type='DefaultStringInterpolation' location=main.swift:31:11 range=[main.swift:31:11 - line:31:11] @ 0xa9684b8)
+                        (brace_stmt implicit range=[main.swift:31:11 - line:31:11]
+                          (var_decl implicit "$interpolation" type='DefaultStringInterpolation' interface type='DefaultStringInterpolation' access=fileprivate readImpl=stored writeImpl=stored readWriteImpl=stored)
+
+                          (call_expr implicit type='()' location=main.swift:31:12 range=[main.swift:31:12 - line:31:11] nothrow arg_labels=_:
+                            (dot_syntax_call_expr implicit type='(String) -> ()' location=main.swift:31:12 range=[main.swift:31:12 - line:31:12] nothrow
+                              (declref_expr implicit type='(inout DefaultStringInterpolation) -> (String) -> ()' decl=Swift.(file).DefaultStringInterpolation.appendLiteral function_ref=double)
+                              (inout_expr implicit type='inout DefaultStringInterpolation' location=main.swift:31:12 range=[main.swift:31:12 - line:31:12]
+                                (declref_expr implicit type='@lvalue DefaultStringInterpolation' location=main.swift:31:12 range=[main.swift:31:12 - line:31:12] decl=main.(file).top-level code.$interpolation function_ref=unapplied)))
+                            (paren_expr implicit type='(String)' location=main.swift:31:11 range=[main.swift:31:11 - line:31:11]
+                              (string_literal_expr type='String' location=main.swift:31:11 range=[main.swift:31:11 - line:31:11] encoding=utf8 value="Pass: " builtin_initializer=Swift.(file).String extension.init(_builtinStringLiteral:utf8CodeUnitCount:isASCII:) initializer=**NULL**)))
+                          (call_expr type='()' location=main.swift:31:19 range=[main.swift:31:19 - line:31:24] nothrow arg_labels=_:
+                            (dot_syntax_call_expr implicit type='(Int) -> ()' location=main.swift:31:19 range=[main.swift:31:19 - line:31:19] nothrow
+                              (declref_expr implicit type='(inout DefaultStringInterpolation) -> (Int) -> ()' location=main.swift:31:19 range=[main.swift:31:19 - line:31:19] decl=Swift.(file).DefaultStringInterpolation.appendInterpolation [with (substitution_map generic_signature=<T where T : CustomStringConvertible> (substitution T -> Int))] function_ref=double)
+                              (inout_expr implicit type='inout DefaultStringInterpolation' location=main.swift:31:19 range=[main.swift:31:19 - line:31:19]
+                                (declref_expr implicit type='@lvalue DefaultStringInterpolation' location=main.swift:31:19 range=[main.swift:31:19 - line:31:19] decl=main.(file).top-level code.$interpolation function_ref=unapplied)))
+                            (paren_expr type='(Int)' location=main.swift:31:20 range=[main.swift:31:19 - line:31:24]
+                              (load_expr implicit type='Int' location=main.swift:31:20 range=[main.swift:31:20 - line:31:20]
+                                (declref_expr type='@lvalue Int' location=main.swift:31:20 range=[main.swift:31:20 - line:31:20] decl=main.(file).Pass@main.swift:11:5 function_ref=unapplied))))
+                          (call_expr implicit type='()' location=main.swift:31:25 range=[main.swift:31:25 - line:31:25] nothrow arg_labels=_:
+                            (dot_syntax_call_expr implicit type='(String) -> ()' location=main.swift:31:25 range=[main.swift:31:25 - line:31:25] nothrow
+                              (declref_expr implicit type='(inout DefaultStringInterpolation) -> (String) -> ()' decl=Swift.(file).DefaultStringInterpolation.appendLiteral function_ref=double)
+                              (inout_expr implicit type='inout DefaultStringInterpolation' location=main.swift:31:25 range=[main.swift:31:25 - line:31:25]
+                                (declref_expr implicit type='@lvalue DefaultStringInterpolation' location=main.swift:31:25 range=[main.swift:31:25 - line:31:25] decl=main.(file).top-level code.$interpolation function_ref=unapplied)))
+                            (paren_expr implicit type='(String)' location=main.swift:31:25 range=[main.swift:31:25 - line:31:25]
+                              (string_literal_expr type='String' location=main.swift:31:25 range=[main.swift:31:25 - line:31:25] encoding=utf8 value=", Swaps: " builtin_initializer=Swift.(file).String extension.init(_builtinStringLiteral:utf8CodeUnitCount:isASCII:) initializer=**NULL**)))
+                          (call_expr type='()' location=main.swift:31:35 range=[main.swift:31:35 - line:31:41] nothrow arg_labels=_:
+                            (dot_syntax_call_expr implicit type='(Int) -> ()' location=main.swift:31:35 range=[main.swift:31:35 - line:31:35] nothrow
+                              (declref_expr implicit type='(inout DefaultStringInterpolation) -> (Int) -> ()' location=main.swift:31:35 range=[main.swift:31:35 - line:31:35] decl=Swift.(file).DefaultStringInterpolation.appendInterpolation [with (substitution_map generic_signature=<T where T : CustomStringConvertible> (substitution T -> Int))] function_ref=double)
+                              (inout_expr implicit type='inout DefaultStringInterpolation' location=main.swift:31:35 range=[main.swift:31:35 - line:31:35]
+                                (declref_expr implicit type='@lvalue DefaultStringInterpolation' location=main.swift:31:35 range=[main.swift:31:35 - line:31:35] decl=main.(file).top-level code.$interpolation function_ref=unapplied)))
+                            (paren_expr type='(Int)' location=main.swift:31:36 range=[main.swift:31:35 - line:31:41]
+                              (load_expr implicit type='Int' location=main.swift:31:36 range=[main.swift:31:36 - line:31:36]
+                                (declref_expr type='@lvalue Int' location=main.swift:31:36 range=[main.swift:31:36 - line:31:36] decl=main.(file).swaps@main.swift:10:5 function_ref=unapplied))))
+                          (call_expr implicit type='()' location=main.swift:31:42 range=[main.swift:31:42 - line:31:42] nothrow arg_labels=_:
+                            (dot_syntax_call_expr implicit type='(String) -> ()' location=main.swift:31:42 range=[main.swift:31:42 - line:31:42] nothrow
+                              (declref_expr implicit type='(inout DefaultStringInterpolation) -> (String) -> ()' decl=Swift.(file).DefaultStringInterpolation.appendLiteral function_ref=double)
+                              (inout_expr implicit type='inout DefaultStringInterpolation' location=main.swift:31:42 range=[main.swift:31:42 - line:31:42]
+                                (declref_expr implicit type='@lvalue DefaultStringInterpolation' location=main.swift:31:42 range=[main.swift:31:42 - line:31:42] decl=main.(file).top-level code.$interpolation function_ref=unapplied)))
+                            (paren_expr implicit type='(String)' location=main.swift:31:42 range=[main.swift:31:42 - line:31:42]
+                              (string_literal_expr type='String' location=main.swift:31:42 range=[main.swift:31:42 - line:31:42] encoding=utf8 value="/" builtin_initializer=Swift.(file).String extension.init(_builtinStringLiteral:utf8CodeUnitCount:isASCII:) initializer=**NULL**)))
+                          (call_expr type='()' location=main.swift:31:44 range=[main.swift:31:44 - line:31:55] nothrow arg_labels=_:
+                            (dot_syntax_call_expr implicit type='(Int) -> ()' location=main.swift:31:44 range=[main.swift:31:44 - line:31:44] nothrow
+                              (declref_expr implicit type='(inout DefaultStringInterpolation) -> (Int) -> ()' location=main.swift:31:44 range=[main.swift:31:44 - line:31:44] decl=Swift.(file).DefaultStringInterpolation.appendInterpolation [with (substitution_map generic_signature=<T where T : CustomStringConvertible> (substitution T -> Int))] function_ref=double)
+                              (inout_expr implicit type='inout DefaultStringInterpolation' location=main.swift:31:44 range=[main.swift:31:44 - line:31:44]
+                                (declref_expr implicit type='@lvalue DefaultStringInterpolation' location=main.swift:31:44 range=[main.swift:31:44 - line:31:44] decl=main.(file).top-level code.$interpolation function_ref=unapplied)))
+                            (paren_expr type='(Int)' location=main.swift:31:45 range=[main.swift:31:44 - line:31:55]
+                              (load_expr implicit type='Int' location=main.swift:31:45 range=[main.swift:31:45 - line:31:45]
+                                (declref_expr type='@lvalue Int' location=main.swift:31:45 range=[main.swift:31:45 - line:31:45] decl=main.(file).totalswaps@main.swift:12:5 function_ref=unapplied))))
+                          (call_expr implicit type='()' location=main.swift:31:56 range=[main.swift:31:56 - line:31:56] nothrow arg_labels=_:
+                            (dot_syntax_call_expr implicit type='(String) -> ()' location=main.swift:31:56 range=[main.swift:31:56 - line:31:56] nothrow
+                              (declref_expr implicit type='(inout DefaultStringInterpolation) -> (String) -> ()' decl=Swift.(file).DefaultStringInterpolation.appendLiteral function_ref=double)
+                              (inout_expr implicit type='inout DefaultStringInterpolation' location=main.swift:31:56 range=[main.swift:31:56 - line:31:56]
+                                (declref_expr implicit type='@lvalue DefaultStringInterpolation' location=main.swift:31:56 range=[main.swift:31:56 - line:31:56] decl=main.(file).top-level code.$interpolation function_ref=unapplied)))
+                            (paren_expr implicit type='(String)' location=main.swift:31:56 range=[main.swift:31:56 - line:31:56]
+                              (string_literal_expr type='String' location=main.swift:31:56 range=[main.swift:31:56 - line:31:56] encoding=utf8 value=", Array: " builtin_initializer=Swift.(file).String extension.init(_builtinStringLiteral:utf8CodeUnitCount:isASCII:) initializer=**NULL**)))
+                          (call_expr type='()' location=main.swift:31:66 range=[main.swift:31:66 - line:31:68] nothrow arg_labels=_:
+                            (dot_syntax_call_expr implicit type='([Int]) -> ()' location=main.swift:31:66 range=[main.swift:31:66 - line:31:66] nothrow
+                              (declref_expr implicit type='(inout DefaultStringInterpolation) -> ([Int]) -> ()' location=main.swift:31:66 range=[main.swift:31:66 - line:31:66] decl=Swift.(file).DefaultStringInterpolation.appendInterpolation [with (substitution_map generic_signature=<T where T : CustomStringConvertible> (substitution T -> [Int]))] function_ref=double)
+                              (inout_expr implicit type='inout DefaultStringInterpolation' location=main.swift:31:66 range=[main.swift:31:66 - line:31:66]
+                                (declref_expr implicit type='@lvalue DefaultStringInterpolation' location=main.swift:31:66 range=[main.swift:31:66 - line:31:66] decl=main.(file).top-level code.$interpolation function_ref=unapplied)))
+                            (paren_expr type='([Int])' location=main.swift:31:67 range=[main.swift:31:66 - line:31:68]
+                              (load_expr implicit type='[Int]' location=main.swift:31:67 range=[main.swift:31:67 - line:31:67]
+                                (declref_expr type='@lvalue [Int]' location=main.swift:31:67 range=[main.swift:31:67 - line:31:67] decl=main.(file).a@main.swift:9:5 function_ref=unapplied))))
+                          (call_expr implicit type='()' location=main.swift:31:69 range=[main.swift:31:69 - line:31:69] nothrow arg_labels=_:
+                            (dot_syntax_call_expr implicit type='(String) -> ()' location=main.swift:31:69 range=[main.swift:31:69 - line:31:69] nothrow
+                              (declref_expr implicit type='(inout DefaultStringInterpolation) -> (String) -> ()' decl=Swift.(file).DefaultStringInterpolation.appendLiteral function_ref=double)
+                              (inout_expr implicit type='inout DefaultStringInterpolation' location=main.swift:31:69 range=[main.swift:31:69 - line:31:69]
+                                (declref_expr implicit type='@lvalue DefaultStringInterpolation' location=main.swift:31:69 range=[main.swift:31:69 - line:31:69] decl=main.(file).top-level code.$interpolation function_ref=unapplied)))
+                            (paren_expr implicit type='(String)' location=main.swift:31:69 range=[main.swift:31:69 - line:31:69]
+                              (string_literal_expr type='String' location=main.swift:31:69 range=[main.swift:31:69 - line:31:69] encoding=utf8 value="" builtin_initializer=Swift.(file).String extension.init(_builtinStringLiteral:utf8CodeUnitCount:isASCII:) initializer=**NULL**)))))))))
+              (default_argument_expr implicit type='String' location=main.swift:31:10 range=[main.swift:31:10 - line:31:10] default_args_owner=Swift.(file).print(_:separator:terminator:) param=1)
+              (default_argument_expr implicit type='String' location=main.swift:31:10 range=[main.swift:31:10 - line:31:10] default_args_owner=Swift.(file).print(_:separator:terminator:) param=2)))
+          (assign_expr type='()' location=main.swift:32:11 range=[main.swift:32:5 - line:32:13]
+            (declref_expr type='@lvalue Int' location=main.swift:32:5 range=[main.swift:32:5 - line:32:5] decl=main.(file).swaps@main.swift:10:5 function_ref=unapplied)
+            (integer_literal_expr type='Int' location=main.swift:32:13 range=[main.swift:32:13 - line:32:13] value=0 builtin_initializer=Swift.(file).Int.init(_builtinIntegerLiteral:) initializer=**NULL**)))))))
