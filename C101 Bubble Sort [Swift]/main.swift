@@ -7,14 +7,13 @@ let unsortedIntegers = [5, 1, 4, 2, 8]
 
 // Add your code below:
 var newarr: [String] = []
-var goAgain = true
 
 while let input = readLine() {
     newarr.append(input)
 }
 
-var a = newarr
-let length = newarr.count
+var array = newarr
+var endCode = false
 
 func swap(arr: inout [String], firstIndex: Int, secondIndex: Int) {
     let temp = arr[firstIndex]
@@ -22,19 +21,30 @@ func swap(arr: inout [String], firstIndex: Int, secondIndex: Int) {
     arr[secondIndex] = temp
 }
 
-func sort(a: inout [String]) {
+func sort(array: inout [String]) {
+    repeat{
+        endCode = true
+        for i in 0 ..< array.count - 1 {
+            if array[i] > array[i+1] {
+                swap(arr: &array, firstIndex: i, secondIndex: i+1)
+                endCode = false
+            }
+        }
+    } while endCode == false
+}
+    /*
     while goAgain == true {
-        goAgain = true
-        for i in 0 ..< a.count-1 {
+        goAgain = false
+        for i in 0 ..< a.count - 1{
             if a[i] > a[i+1] {
                 swap(arr: &a, firstIndex: i, secondIndex:i + 1)
-                goAgain = false
+                goAgain = true
             }
         }
     }
 }
-
-sort(a:&a)
-for i in 0 ..< length {
-   print(a[i])
+*/
+sort(array:&array)
+for i in 0 ..< array.count {
+   print(array[i])
 }
